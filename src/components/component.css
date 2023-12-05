@@ -1,0 +1,9 @@
+.bt1 {
+    background-color: rgb(250, 186, 59);
+    color: #fff;
+    border-radius: 25px;
+    border: #fff 2px solid;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 31%;
+  }

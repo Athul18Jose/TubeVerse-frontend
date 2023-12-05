@@ -1,0 +1,187 @@
+/* Default styles for larger screens */
+.c1 {
+  border: 2px solid transparent;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+  padding: 30px;
+  margin-top: 5%;
+  height: 350px;
+  width: 60%;
+}
+
+.c1 h1 {
+  margin-top: 30px;
+  font-family: cinzel;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.c1 span {
+  font-family: cinzel;
+  font-weight: bolder;
+}
+
+.right {
+  margin-left: 15px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature {
+  flex: 650 450 calc(20% - 50px);
+  /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid transparent;
+}
+
+.feature i {
+  margin-right: 10px;
+}
+
+.headline1 {
+  color: rgb(255, 170, 0);
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: cinzel;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.img {
+  width: 100%;
+  max-height: 370px;
+}
+
+.c2 {
+  margin-top: 5%;
+}
+
+.bt1 {
+  background-color: rgb(250, 186, 59);
+  color: #fff;
+  border-radius: 25px;
+  border: #fff 2px solid;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 31%;
+}
+
+.bt1:hover {
+  background-color: rgb(242, 181, 59);
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c2 p {
+  font-size: 16px;
+  /* Change the font size as needed */
+}
+
+.c3 {
+  margin-top: 10%;
+}
+
+.head {
+  font-family: cinzel;
+  color: rgb(255, 170, 0);
+}
+
+thead th {
+  background-color: rgb(255, 209, 152);
+  color: rgb(172, 172, 172);
+}
+
+.back {
+  background-image: url("https://i.pinimg.com/originals/e3/10/6b/e3106b678b0d99327062454871555a48.gif");
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+}
+
+.h2 {
+  font-family: cinzel;
+  color: rgb(255, 170, 0);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.para {
+  color: rgb(201, 201, 201);
+  text-align: left;
+  padding-left: 10%;
+}
+
+.btt {
+  width: 25%;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: You can style the thumb and track for Webkit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  /* Hide the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Hide the track */
+}
+
+.bt2 {
+  border-radius: 25px;
+  background-color: rgb(250, 186, 59);
+  color: #fff;
+  border: rgb(250, 186, 59) 2px solid;
+  padding: 10px;
+  cursor: pointer;
+  height: 50px;
+  margin-left: 40%;
+  font-family: cinzel;
+  margin-top: 15px;
+
+}
+
+/* Optional: You can style the scrollbar for Firefox */
+/* scrollbar-width: none; /* F */
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .c1 {
+    margin: 5%;
+  }
+
+  .bt1 {
+    margin-left: 0;
+  }
+
+  .img {
+    max-height: auto;
+  }
+
+  .c2 {
+    margin-top: 5%;
+  }
+
+  .c2 p {
+    font-size: 14px;
+  }
+
+  .c3 {
+    margin-top: 5%;
+  }
+}
